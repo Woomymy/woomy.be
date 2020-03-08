@@ -1,3 +1,16 @@
+button{
+
+	padding:6px 0 6px 0;
+	font-family: 'Source Code Pro', monospace;
+	background:#478bf9;
+	color:#fff;
+	border-radius:2px;
+	width:100px;
+	border:none;
+}
+#HSLhref{
+    color: black;
+}
 h1, h2{
     color: darkblue;
    
@@ -22,3 +35,17 @@ body{
     padding: 0 20px 20px 20px;
     margin: 0 auto;
 }
+button{
+    border: salmon;
+}
+/*
+{
+	padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#478bf9;
+	color:#fff;
+	border-radius:2px;
+	width:100px;
+	border:none;
+}
+*/
