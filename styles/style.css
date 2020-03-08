@@ -1,0 +1,24 @@
+h1, h2{
+    color: darkblue;
+   
+}
+h1:hover, h2:hover{
+    color: black;
+}
+html{
+    font-family: 'Source Code Pro', monospace;
+    background-color:#B0BDBB ;
+}
+a{
+    color: darkcyan;
+}
+a:hover{
+    color: blue;
+}
+p, li{
+    color: #010101;
+}
+body{
+    padding: 0 20px 20px 20px;
+    margin: 0 auto;
+}
