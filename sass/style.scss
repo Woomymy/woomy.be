@@ -12,6 +12,9 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    :hover {
+        background-color: lightslategray;
+    }
     a {
         float: left;
         color: #f2f2f2;
@@ -19,10 +22,11 @@ body {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-        
+       
     }
     a:hover {
         color: lightgreen;
-        font-size: 19px;
-    }
+        font-size: 18px;
+    }    
+    
 }
