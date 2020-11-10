@@ -1,4 +1,5 @@
 <template>
+  <p>Bonjour</p>
 </template>
 
 <script>
