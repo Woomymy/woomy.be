@@ -1,5 +1,8 @@
 <template>
   <Navbar/>
+  <div class="content-center text-center text-2xl">
+    <h1>Plop!</h1>
+  </div>
 </template>
 
 <script>
