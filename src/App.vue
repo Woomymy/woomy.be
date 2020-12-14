@@ -20,17 +20,20 @@ export default {
     Navbar
   },
   methods: {
+    gotourl(url) {
+      window.open(url, "_blank")
+    },
     gotoGH() {
-      window.open("https://github.com/Woomy4680-exe", "_blank")
+      this.gotourl("https://github.com/Woomy4680-exe")
     },
     gotoTW() {
-      window.open("https://twitter.com/woomy4680", "_blank");
+      this.gotourl("https://twitter.com/woomy4680");
     },
     gotoDEV() {
-      window.open("https://dev.to/woomy4680exe", "_blank");
+      this.gotourl("https://dev.to/woomy4680exe");
     },
     gotoRD() {
-      window.open("https://www.reddit.com/u/woomy4680-exe", "_blank")
+      this.gotourl("https://www.reddit.com/u/woomy4680-exe")
     }
   }
 }
