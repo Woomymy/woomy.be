@@ -1,7 +1,13 @@
 <template>
   <Navbar/>
-  <div class="content-center text-center text-2xl">
-    <h1>Plop!</h1>
+  <div class=" bg-gradient-to-br from-green-500 to-green-300 text-2xl content-center text-center">
+    <h1 class="text-4xl content-center text-center">Plop!</h1>
+    <h3 class="text-3xl font-bold content-center text-center">Woomy4680-exe</h3>
+    <br>
+    <p class="text-2xl content-center text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aut nostrum, repellendus fugit possimus corporis doloremque accusantium, officiis, omnis sint totam tempora enim beatae esse rem architecto veritatis debitis laborum. </p>
+    <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white  bg-black" @click="gotoGH()"><font-awesome-icon :icon="['fab', 'github']"/> GitHub</button>
+    <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-blue-500" @click="gotoTW()"><font-awesome-icon :icon="['fab', 'twitter']"/> Twitter</button>
+    <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-gray-800" @click="gotoDEV()"><font-awesome-icon :icon="['fab', 'dev']"/> Dev.to</button>
   </div>
 </template>
 
@@ -11,6 +17,17 @@ export default {
   name: 'App',
   components: {
     Navbar
+  },
+  methods: {
+    gotoGH() {
+      window.open("https://github.com/Woomy4680-exe", "_blank")
+    },
+    gotoTW() {
+      window.open("https://twitter.com/woomy4680", "_blank");
+    },
+    gotoDEV() {
+      window.open("https://dev.to/woomy4680exe", "_blank");
+    }
   }
 }
 </script>
