@@ -8,6 +8,7 @@
     <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white  bg-black" @click="gotoGH()"><font-awesome-icon :icon="['fab', 'github']"/> GitHub</button>
     <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-blue-500" @click="gotoTW()"><font-awesome-icon :icon="['fab', 'twitter']"/> Twitter</button>
     <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-gray-800" @click="gotoDEV()"><font-awesome-icon :icon="['fab', 'dev']"/> Dev.to</button>
+    <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-yellow-500" @click="gotoRD()"><font-awesome-icon :icon="['fab', 'reddit']"/> Reddit</button>
   </div>
 </template>
 
@@ -27,6 +28,9 @@ export default {
     },
     gotoDEV() {
       window.open("https://dev.to/woomy4680exe", "_blank");
+    },
+    gotoRD() {
+      window.open("https://www.reddit.com/u/woomy4680-exe", "_blank")
     }
   }
 }
