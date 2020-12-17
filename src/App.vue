@@ -19,6 +19,7 @@
         <img src="https://img.shields.io/static/v1?label=Made with&color=green&style=for-the-badge&logo=Vue.js&message=Vue.JS">
         <p class="">DetectionHSL est un script qui permet de récupérer et d'exécuter paralèlement des script powershell avec toute une série d'utilitaires</p>
         <GitHubButton link="https://github.com/DetectionHSL"/>
+        <WebSiteButton link="https://detectionhsl.fr"/>
     </div>
   </div>
 </template>
@@ -26,11 +27,13 @@
 <script>
 import GitHubButton from "./components/GitHubButton"
 import Navbar from "./components/Navbar"
+import WebSiteButton from "./components/WebSiteButton"
 export default {
   name: 'App',
   components: {
     Navbar,
-    GitHubButton
+    GitHubButton,
+    WebSiteButton
   },
   methods: {
     gotourl(url) {
