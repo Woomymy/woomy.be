@@ -12,28 +12,20 @@
   </div>
   <div class="text-2xl content-center text-center">
     <h1 class="text-3xl font-bold">My projects</h1>
-    <div class="text-white bg-blue-500 m-10  rounded-xl overflow-hidden">
-        <p class="font-bold text-2xl underline">DetectionHSL</p>
-        <img src="https://img.shields.io/static/v1?label=Made with&color=blue&style=for-the-badge&logo=Powershell&message=Powershell">
-        <img src="https://img.shields.io/static/v1?label=Made with&color=red&style=for-the-badge&logo=Rust&message=Rust">
-        <img src="https://img.shields.io/static/v1?label=Made with&color=green&style=for-the-badge&logo=Vue.js&message=Vue.JS">
-        <p class="">DetectionHSL est un script qui permet de récupérer et d'exécuter paralèlement des script powershell avec toute une série d'utilitaires</p>
-        <GitHubButton link="https://github.com/DetectionHSL"/>
-        <WebSiteButton link="https://detectionhsl.fr"/>
-    </div>
+    <Project name="DetectionHSL" ghlink="https://github.com/DetectionHSL" wslink="https://detectionHSL.fr"/>
   </div>
 </template>
 
 <script>
 import GitHubButton from "./components/GitHubButton"
 import Navbar from "./components/Navbar"
-import WebSiteButton from "./components/WebSiteButton"
+import Project from "./components/Project"
 export default {
   name: 'App',
   components: {
     Navbar,
     GitHubButton,
-    WebSiteButton
+    Project
   },
   methods: {
     gotourl(url) {
