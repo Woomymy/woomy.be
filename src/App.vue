@@ -12,7 +12,7 @@
   </div>
   <div class="text-2xl content-center text-center">
     <h1 class="text-3xl font-bold">My projects</h1>
-    <Project name="DetectionHSL" ghlink="https://github.com/DetectionHSL" wslink="https://detectionHSL.fr"/>
+    <Project v-bind:langs="this.hslangs" name="DetectionHSL" ghlink="https://github.com/DetectionHSL" wslink="https://detectionHSL.fr"/>
   </div>
 </template>
 
@@ -42,6 +42,11 @@ export default {
     },
     gotoRD() {
       this.gotourl("https://www.reddit.com/u/woomy4680-exe")
+    }
+  },
+  data(){
+    return {
+    hslangs: ['powershell', 'vue', 'rust']
     }
   }
 }
