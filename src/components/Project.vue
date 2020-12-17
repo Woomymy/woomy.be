@@ -5,8 +5,8 @@
         <img src="https://img.shields.io/static/v1?label=Made with&color=red&style=for-the-badge&logo=Rust&message=Rust">
         <img src="https://img.shields.io/static/v1?label=Made with&color=green&style=for-the-badge&logo=Vue.js&message=Vue.JS">
         <p class="">DetectionHSL est un script qui permet de récupérer et d'exécuter paralèlement des script powershell avec toute une série d'utilitaires</p>
-        <GitHubButton v-bind:link="ghlink"/>
-        <WebSiteButton v-bind:link="wslink"/>
+        <GitHubButton v-if="this.ghlink" v-bind:link="ghlink"/>
+        <WebSiteButton v-if="this.wslink" v-bind:link="wslink"/>
     </div>
 </template>
 
