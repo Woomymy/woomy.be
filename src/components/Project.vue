@@ -1,5 +1,7 @@
 <template>
-  <div class="text-white bg-blue-500 m-10  rounded-xl overflow-hidden">
+  <div
+    class="float-left text-white bg-blue-500 w-96 m-4 rounded-xl overflow-hidden"
+  >
     <p class="font-bold text-2xl underline">{{ name }}</p>
     <img
       class="float-left m-2"
@@ -27,8 +29,9 @@
       src="https://img.shields.io/static/v1?label=Made with&color=black&style=for-the-badge&logo=GNU Bash&message=Bash"
     />
     <p class="float-left">{{ description }}</p>
-    <GitHubButton v-if="this.ghlink" v-bind:link="ghlink" />
-    <WebSiteButton v-if="this.wslink" v-bind:link="wslink" />
+    <br />
+    <GitHubButton class="float-left" v-if="this.ghlink" v-bind:link="ghlink" />
+    <WebSiteButton class="float-left" v-if="this.wslink" v-bind:link="wslink" />
   </div>
 </template>
 
