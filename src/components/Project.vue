@@ -1,10 +1,10 @@
 <template>
   <div class="text-white bg-blue-500 m-10  rounded-xl overflow-hidden">
         <p class="font-bold text-2xl underline">{{ name }}</p>
-        <img class="m-2" v-if="this.langs.includes('powershell')" src="https://img.shields.io/static/v1?label=Made with&color=blue&style=for-the-badge&logo=Powershell&message=Powershell">
-        <img class="m-2" v-if="this.langs.includes('rust')" src="https://img.shields.io/static/v1?label=Made with&color=red&style=for-the-badge&logo=Rust&message=Rust"> 
-        <img class="m-2" v-if="this.langs.includes('vue')" src="https://img.shields.io/static/v1?label=Made with&color=green&style=for-the-badge&logo=Vue.js&message=Vue.JS">
-        <p class="">{{ description }}</p>
+        <img class="float-left m-2" v-if="this.langs.includes('powershell')" src="https://img.shields.io/static/v1?label=Made with&color=blue&style=for-the-badge&logo=Powershell&message=Powershell">
+        <img class="float-left m-2" v-if="this.langs.includes('rust')" src="https://img.shields.io/static/v1?label=Made with&color=red&style=for-the-badge&logo=Rust&message=Rust"> 
+        <img class="float-left m-2" v-if="this.langs.includes('vue')" src="https://img.shields.io/static/v1?label=Made with&color=green&style=for-the-badge&logo=Vue.js&message=Vue.JS">
+        <p class="float-left">{{ description }}</p>
         <GitHubButton v-if="this.ghlink" v-bind:link="ghlink"/>
         <WebSiteButton v-if="this.wslink" v-bind:link="wslink"/>
     </div>
