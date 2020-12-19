@@ -31,6 +31,12 @@
       wslink="https://detectionHSL.fr"
     />
     <Project
+      name="Blog"
+      description="Mon blog"
+      ghlink="https://github.com/Woomy4680-exe/Blog"
+      v-bind:langs="this.bloglangs"
+    />
+    <Project
       description="DiscordJS-moka est une petite lib écrite en typescript qui aide à la création de bots Discord."
       v-bind:langs="this.mokalangs"
       name="DiscordJS-moka"
@@ -74,7 +80,8 @@ export default {
       hslangs: ["powershell", "vue", "rust"],
       mokalangs: ["typescript"],
       dotflangs: ["bash"],
-      overlaylangs: ["bash"]
+      overlaylangs: ["bash"],
+      bloglangs: []
     };
   }
 };

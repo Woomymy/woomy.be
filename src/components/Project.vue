@@ -28,7 +28,7 @@
       v-if="this.langs.includes('bash')"
       src="https://img.shields.io/static/v1?label=Made with&color=black&style=for-the-badge&logo=GNU Bash&message=Bash"
     />
-    <p class="float-left">{{ description }}</p>
+    <p class="float-left m-1">{{ description }}</p>
     <br />
     <GitHubButton class="float-left" v-if="this.ghlink" v-bind:link="ghlink" />
     <WebSiteButton class="float-left" v-if="this.wslink" v-bind:link="wslink" />
