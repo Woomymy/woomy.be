@@ -5,6 +5,7 @@
         <img class="float-left m-2" v-if="this.langs.includes('rust')" src="https://img.shields.io/static/v1?label=Made with&color=red&style=for-the-badge&logo=Rust&message=Rust"> 
         <img class="float-left m-2" v-if="this.langs.includes('vue')" src="https://img.shields.io/static/v1?label=Made with&color=green&style=for-the-badge&logo=Vue.js&message=Vue.JS">
         <img class="float-left m-2" v-if="this.langs.includes('typescript')" src="https://img.shields.io/static/v1?label=Made with&color=blue&style=for-the-badge&logo=typescript&message=TypeScript">
+        <img class="float-left m-2" v-if="this.langs.includes('bash')" src="https://img.shields.io/static/v1?label=Made with&color=black&style=for-the-badge&logo=GNU Bash&message=Bash">
         <p class="float-left">{{ description }}</p>
         <GitHubButton v-if="this.ghlink" v-bind:link="ghlink"/>
         <WebSiteButton v-if="this.wslink" v-bind:link="wslink"/>

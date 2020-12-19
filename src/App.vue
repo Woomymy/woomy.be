@@ -14,6 +14,7 @@
     <h1 class="text-3xl font-bold">My projects</h1>
     <Project description="DetectionHSL est un script qui permet de récupérer et d'exécuter paralèlement des script powershell avec toute une série d'utilitaires" v-bind:langs="this.hslangs" name="DetectionHSL" ghlink="https://github.com/DetectionHSL" wslink="https://detectionHSL.fr"/>
     <Project description="DiscordJS-moka est une petite lib écrite en typescript qui aide à la création de bots Discord." v-bind:langs="this.mokalangs" name="DiscordJS-moka" ghlink="https://github.com/discordjs-moka" wslink="https://discdordjs-moka.github.io"/>
+    <Project name="Dotfiles" description="Ma configuration de bureau, pour I3-Gaps et Calculate Linux et les autres trucs que j'utilise." ghlink="https://github.com/Woomy4680-exe/Dotfiles" v-bind:langs="this.dotflangs"/>
   </div>
 </template>
 
@@ -48,8 +49,8 @@ export default {
   data(){
     return {
       hslangs: ['powershell', 'vue', 'rust'],
-      mokalangs: ['typescript']
-    
+      mokalangs: ['typescript'],
+      dotflangs: ['bash']
     }
   }
 }
