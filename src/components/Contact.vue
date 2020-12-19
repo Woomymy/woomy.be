@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="float-left">
     <p class="m-5 text-3xl text-center">
       Voici les moyens de me contacter:
     </p>
