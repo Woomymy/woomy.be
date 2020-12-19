@@ -7,7 +7,7 @@
     <p class="text-2xl content-center text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aut nostrum, repellendus fugit possimus corporis doloremque accusantium, officiis, omnis sint totam tempora enim beatae esse rem architecto veritatis debitis laborum. </p>
     <GitHubButton link="https://github.com/Woomy4680-exe"/>
     <button class="focus:outline-none m-2 border-none rounded-full py-3 px-6 text-white bg-blue-500" @click="gotoTW()"><font-awesome-icon :icon="['fab', 'twitter']"/> Twitter</button>
-    <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-gray-800" @click="gotoDEV()"><font-awesome-icon :icon="['fab', 'dev']"/> Dev.to</button>
+    <DevButton username="woomy4680exe"/>
     <RedditButton link="Woomy4680-exe" type="u"/>
   </div>
   <div class="text-2xl content-center text-center">
@@ -23,13 +23,15 @@ import GitHubButton from "./components/GitHubButton"
 import Navbar from "./components/Navbar"
 import Project from "./components/Project"
 import RedditButton from "./components/RedditButton"
+import DevButton from "./components/DevButton"
 export default {
   name: 'App',
   components: {
     Navbar,
     GitHubButton,
     Project,
-    RedditButton
+    RedditButton,
+    DevButton
   },
   methods: {
     gotourl(url) {
@@ -40,9 +42,6 @@ export default {
     },
     gotoTW() {
       this.gotourl("https://twitter.com/woomy4680");
-    },
-    gotoDEV() {
-      this.gotourl("https://dev.to/woomy4680exe");
     }
   },
   data(){
