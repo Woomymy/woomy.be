@@ -1,5 +1,5 @@
 <template>
-    <button class="focus:outline-none m-2 border-none rounded-full py-3 px-6 text-white  bg-gray-600" @click="goto()"><font-awesome-icon :icon="['fab', 'html5']"/> Website</button>
+    <button class="focus:outline-none m-2 border-none rounded-full py-3 px-6 text-white hover:bg-yellow-500  bg-yellow-600" @click="goto()"><font-awesome-icon :icon="['fab', 'html5']"/> Website</button>
 </template>
 
 <script>
