@@ -6,9 +6,9 @@
     <br>
     <p class="text-2xl content-center text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aut nostrum, repellendus fugit possimus corporis doloremque accusantium, officiis, omnis sint totam tempora enim beatae esse rem architecto veritatis debitis laborum. </p>
     <GitHubButton link="https://github.com/Woomy4680-exe"/>
-    <button class="focus:outline-none m-2 border-none rounded-full py-3 px-6 text-white bg-blue-500" @click="gotoTW()"><font-awesome-icon :icon="['fab', 'twitter']"/> Twitter</button>
-    <DevButton username="woomy4680exe"/>
     <RedditButton link="Woomy4680-exe" type="u"/>
+    <DevButton username="woomy4680exe"/>
+    <TwitterButton username="woomy4680" />
   </div>
   <div class="text-2xl content-center text-center">
     <h1 class="text-3xl font-bold">My projects</h1>
@@ -24,6 +24,7 @@ import Navbar from "./components/Navbar"
 import Project from "./components/Project"
 import RedditButton from "./components/RedditButton"
 import DevButton from "./components/DevButton"
+import TwitterButton from "./components/TwitterButton"
 export default {
   name: 'App',
   components: {
@@ -31,7 +32,8 @@ export default {
     GitHubButton,
     Project,
     RedditButton,
-    DevButton
+    DevButton,
+    TwitterButton
   },
   methods: {
     gotourl(url) {
@@ -39,9 +41,6 @@ export default {
     },
     gotoGH() {
       this.gotourl("https://github.com/Woomy4680-exe")
-    },
-    gotoTW() {
-      this.gotourl("https://twitter.com/woomy4680");
     }
   },
   data(){
