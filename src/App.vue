@@ -56,6 +56,7 @@
       v-bind:langs="this.overlaylangs"
     />
   </div>
+  <Contact />
 </template>
 
 <script>
@@ -65,6 +66,7 @@ import Project from "./components/Project";
 import RedditButton from "./components/buttons/RedditButton";
 import DevButton from "./components/buttons/DevButton";
 import TwitterButton from "./components/buttons/TwitterButton";
+import Contact from "./components/Contact";
 export default {
   name: "App",
   components: {
@@ -73,7 +75,8 @@ export default {
     Project,
     RedditButton,
     DevButton,
-    TwitterButton
+    TwitterButton,
+    Contact
   },
   data() {
     return {
