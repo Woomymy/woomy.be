@@ -1,6 +1,6 @@
 <template>
   <button
-    class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-yellow-500"
+    class="focus:outline-none m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-yellow-500"
     @click="gotoRD()"
   >
     <font-awesome-icon :icon="['fab', 'reddit']" /> Reddit
