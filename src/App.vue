@@ -7,10 +7,14 @@
     <h3 class="text-3xl font-bold content-center text-center">Woomy4680-exe</h3>
     <br />
     <p class="text-2xl content-center text-center">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aut
-      nostrum, repellendus fugit possimus corporis doloremque accusantium,
-      officiis, omnis sint totam tempora enim beatae esse rem architecto
-      veritatis debitis laborum.
+      Plop! Je suis Woomy4680-exe, jeune dev' belge qui adore la programmation
+      et l'informatique en plus général. Je fais pas mal de Rust, pas mal de
+      powershell, de typescript et de bash. J'aime aussi faire un peu de HTML /
+      CSS et utiliser Vue.JS et TailWindCSS, même si je n'ai
+      <strong>aucun sens du desing</strong>. Je touche aussi pas mal à GNU/Linux
+      et je tourne d'ailleurs sur
+      <a href="https://calculate-linux.org" target="_blank"> Calculate Linux </a
+      >, une distribution basée sur Gentoo, mais avec des binaires.
     </p>
     <GitHubButton link="https://github.com/Woomy4680-exe" />
     <RedditButton link="Woomy4680-exe" type="u" />
@@ -39,6 +43,12 @@
       ghlink="https://github.com/Woomy4680-exe/Dotfiles"
       v-bind:langs="this.dotflangs"
     />
+    <Project
+      name="Woomy-Overlay"
+      description="Un overlay pour gentoo qui inclut des packages pour mes projets / d'autres paquets utiles."
+      ghlink="https://github.com/Woomy4680-exe/Woomy-overlay"
+      v-bind:langs="this.overlaylangs"
+    />
   </div>
 </template>
 
@@ -63,7 +73,8 @@ export default {
     return {
       hslangs: ["powershell", "vue", "rust"],
       mokalangs: ["typescript"],
-      dotflangs: ["bash"]
+      dotflangs: ["bash"],
+      overlaylangs: ["bash"]
     };
   }
 };
