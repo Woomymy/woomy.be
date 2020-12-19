@@ -33,8 +33,8 @@
 </template>
 
 <script>
-import GitHubButton from "./GitHubButton";
-import WebSiteButton from "./WebSiteButton";
+import GitHubButton from "./buttons/GitHubButton";
+import WebSiteButton from "./buttons/WebSiteButton";
 export default {
   name: "Project",
   props: {

@@ -43,12 +43,12 @@
 </template>
 
 <script>
-import GitHubButton from "./components/GitHubButton";
+import GitHubButton from "./components/buttons/GitHubButton";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
-import RedditButton from "./components/RedditButton";
-import DevButton from "./components/DevButton";
-import TwitterButton from "./components/TwitterButton";
+import RedditButton from "./components/buttons/RedditButton";
+import DevButton from "./components/buttons/DevButton";
+import TwitterButton from "./components/buttons/TwitterButton";
 export default {
   name: "App",
   components: {
