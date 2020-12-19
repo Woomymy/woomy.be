@@ -8,7 +8,7 @@
     <GitHubButton link="https://github.com/Woomy4680-exe"/>
     <button class="focus:outline-none m-2 border-none rounded-full py-3 px-6 text-white bg-blue-500" @click="gotoTW()"><font-awesome-icon :icon="['fab', 'twitter']"/> Twitter</button>
     <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-gray-800" @click="gotoDEV()"><font-awesome-icon :icon="['fab', 'dev']"/> Dev.to</button>
-    <button class="m-2 focus:border-none hover:border-none rounded-full py-3 px-6 text-white bg-yellow-500" @click="gotoRD()"><font-awesome-icon :icon="['fab', 'reddit']"/> Reddit</button>
+    <RedditButton link="Woomy4680-exe" type="u"/>
   </div>
   <div class="text-2xl content-center text-center">
     <h1 class="text-3xl font-bold">My projects</h1>
@@ -22,12 +22,14 @@
 import GitHubButton from "./components/GitHubButton"
 import Navbar from "./components/Navbar"
 import Project from "./components/Project"
+import RedditButton from "./components/RedditButton"
 export default {
   name: 'App',
   components: {
     Navbar,
     GitHubButton,
-    Project
+    Project,
+    RedditButton
   },
   methods: {
     gotourl(url) {
@@ -41,9 +43,6 @@ export default {
     },
     gotoDEV() {
       this.gotourl("https://dev.to/woomy4680exe");
-    },
-    gotoRD() {
-      this.gotourl("https://www.reddit.com/u/woomy4680-exe")
     }
   },
   data(){
