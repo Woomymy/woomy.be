@@ -35,14 +35,6 @@ export default {
     DevButton,
     TwitterButton
   },
-  methods: {
-    gotourl(url) {
-      window.open(url, "_blank")
-    },
-    gotoGH() {
-      this.gotourl("https://github.com/Woomy4680-exe")
-    }
-  },
   data(){
     return {
       hslangs: ['powershell', 'vue', 'rust'],
