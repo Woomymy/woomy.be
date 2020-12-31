@@ -1,8 +1,6 @@
 <template class="">
   <Navbar />
-  <div
-    class="bg-gradient-to-b from-green-600 to-white  text-2xl content-center text-center"
-  >
+  <div class=" text-2xl content-center text-center">
     <h1 class="text-4xl content-center text-center">Plop!</h1>
     <h3 class="text-3xl font-bold content-center text-center">Woomy4680-exe</h3>
     <br />
