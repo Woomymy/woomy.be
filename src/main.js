@@ -9,7 +9,8 @@ import {
   faTwitter,
   faDev,
   faReddit,
-  faTelegram
+  faTelegram,
+  faDiscord
 } from "@fortawesome/free-brands-svg-icons";
 import { faHome, faBook, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 library.add(faGithub);
@@ -21,6 +22,7 @@ library.add(faReddit);
 library.add(faHtml5);
 library.add(faEnvelope);
 library.add(faTelegram);
+library.add(faDiscord);
 app.component("font-awesome-icon", FontAwesomeIcon);
 import "./styles/index.css";
 app.mount("#app");

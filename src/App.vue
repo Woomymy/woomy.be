@@ -16,6 +16,7 @@
     </p>
     <GitHubButton link="https://github.com/Woomy4680-exe" />
     <RedditButton link="Woomy4680-exe" type="u" />
+    <DiscordButton link="vHqy6YQ7jn" />
     <DevButton username="woomy4680exe" />
     <TwitterButton username="woomy4680" />
   </div>
@@ -65,12 +66,14 @@ import RedditButton from "./components/buttons/RedditButton";
 import DevButton from "./components/buttons/DevButton";
 import TwitterButton from "./components/buttons/TwitterButton";
 import Contact from "./components/Contact";
+import DiscordButton from "./components/buttons/DiscordButton";
 export default {
   name: "App",
   components: {
     Navbar,
     GitHubButton,
     Project,
+    DiscordButton,
     RedditButton,
     DevButton,
     TwitterButton,
