@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Iosevka';
-    src: url(fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
+    src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
   }
 * {
     background-color: #333;
