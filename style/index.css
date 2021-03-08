@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Iosevka';
+    src: url(fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
+  }
+* {
+    background-color: #333;
+    color: white;
+}
+h1 {
+    font-family: 'Iosevka', sans-serif;
+}
+.center {
+    text-align: center;
+}
