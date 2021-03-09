@@ -5,10 +5,17 @@
 * {
     background-color: #333;
     color: white;
-}
-h1 {
     font-family: 'Iosevka', sans-serif;
 }
 .center {
     text-align: center;
+}
+.text-pink {
+    color: #db6bc6;
+}
+.text-white {
+    color: whitesmoke;
+}
+.text-cyan {
+    color: cyan;
 }
