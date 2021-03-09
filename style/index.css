@@ -19,3 +19,7 @@
 .text-cyan {
     color: cyan;
 }
+.invisible {
+    border: none;
+    outline: none;
+}
