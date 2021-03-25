@@ -26,3 +26,7 @@
 a {
     color: lightskyblue;
 }
+.note {
+   font-style: italic;
+   color: grey;
+}
