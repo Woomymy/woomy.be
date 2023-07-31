@@ -1,32 +1,43 @@
+@import url("schemes/dark.css") (prefers-color-scheme: dark);
+@import url("schemes/light.css") (prefers-color-scheme: light);
+
 @font-face {
     font-family: 'Iosevka';
     src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
-  }
-* {
-    background-color: #333;
-    color: white;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--onBackground);
     font-family: 'Iosevka', sans-serif;
 }
+
 .center {
     text-align: center;
 }
-.text-pink {
-    color: #db6bc6;
+
+.prompt-username {
+    color: var(--primary);
 }
-.text-white {
-    color: whitesmoke;
+
+.prompt-hostname {
+    color: var(--secondary);
 }
-.text-cyan {
-    color: cyan;
+
+.prompt-cwd {
+    color: var(--tertiary);
 }
+
 .invisible {
     border: none;
     outline: none;
 }
+
 a {
-    color: lightskyblue;
+    color: var(--primary);
 }
+
 .note {
    font-style: italic;
-   color: grey;
+   color: var(--tertiary);
 }

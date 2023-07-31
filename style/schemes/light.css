@@ -1,0 +1,31 @@
+:root {
+    --primary: #9b3b6d;
+    --onPrimary: #ffffff;
+    --primaryContainer: #ffd8e6;
+    --onPrimaryContainer: #3d0024;
+    --secondary: #735762;
+    --onSecondary: #ffffff;
+    --secondaryContainer: #fed9e6;
+    --onSecondaryContainer: #2a151e;
+    --tertiary: #7e5538;
+    --onTertiary: #ffffff;
+    --tertiaryContainer: #ffdcc6;
+    --onTertiaryContainer: #301401;
+    --error: #ba1a1a;
+    --onError: #ffffff;
+    --errorContainer: #ffdad6;
+    --onErrorContainer: #410002;
+    --background: #fffbff;
+    --onBackground: #1f1a1c;
+    --surface: #fffbff;
+    --onSurface: #1f1a1c;
+    --surfaceVariant: #f1dee3;
+    --onSurfaceVariant: #504348;
+    --outline: #827378;
+    --outlineVariant: #d4c2c7;
+    --shadow: #000000;
+    --scrim: #000000;
+    --inverseSurface: #352f31;
+    --inverseOnSurface: #f9eef0;
+    --inversePrimary: #ffafd1;
+}
