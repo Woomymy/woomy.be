@@ -1,4 +1,4 @@
-@import url("schemes/dark.css") (prefers-color-scheme: dark);
+@import url("schemes/dark.css");
 @import url("schemes/light.css") (prefers-color-scheme: light);
 
 @font-face {
