@@ -6,7 +6,7 @@
     src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
 }
 
-body {
+body, p, span {
     background-color: var(--background);
     color: var(--onBackground);
     font-family: 'Iosevka', sans-serif;
