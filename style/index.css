@@ -3,13 +3,13 @@
 
 @font-face {
     font-family: 'Iosevka';
-    src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
+    src: url(../fonts/iosevka-regular.woff2) format('woff2');
 }
 
 body, p, span {
     background-color: var(--background);
     color: var(--onBackground);
-    font-family: 'Iosevka', sans-serif;
+    font-family: 'Iosevka', monospace;
 }
 
 .center {
