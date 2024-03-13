@@ -4,6 +4,7 @@
 @font-face {
     font-family: 'Iosevka';
     src: url(../fonts/iosevka-regular.woff2) format('woff2');
+    font-display: swap;
 }
 
 body, p, span {
